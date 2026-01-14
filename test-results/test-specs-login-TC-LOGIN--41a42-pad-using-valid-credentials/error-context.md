@@ -1,0 +1,51 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic:
+    - status
+    - status
+    - img [ref=e2]
+    - img [ref=e22]
+  - generic [ref=e29]:
+    - banner "Shell Bar" [ref=e31]:
+      - generic [ref=e32]:
+        - button "SAP Logo" [ref=e33] [cursor=pointer]:
+          - img "SAP Logo" [ref=e34]
+        - heading "Home" [level=1]
+        - button "Home" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: Home
+          - generic [ref=e39]: 
+      - generic [ref=e42]:
+        - button "Open Search" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: 
+        - button "Notifications" [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]: 
+        - button "Profile of T_FIN_BILL" [ref=e47] [cursor=pointer]:
+          - generic: T
+    - generic [ref=e49]:
+      - generic [ref=e54]:
+        - button "Personalize Navigation Bar" [ref=e58] [cursor=pointer]:
+          - generic [ref=e60]: 
+        - navigation "Space Page" [ref=e61]:
+          - tablist [ref=e62]:
+            - tab "My Home" [selected] [ref=e63] [cursor=pointer]:
+              - generic [ref=e66]: My Home
+            - separator
+            - tab "Central Billing" [ref=e68] [cursor=pointer]:
+              - generic [ref=e71]: Central Billing
+      - generic [ref=e73]:
+        - main "Shell Content" [ref=e78]:
+          - figure [ref=e88]:
+            - generic [ref=e89]:
+              - img "Nothing here yet?" [ref=e90]
+              - generic [ref=e92]:
+                - heading "Nothing here yet?" [level=2] [ref=e93]
+                - generic [ref=e94]: You can add your preferred apps to this page.
+            - button "Edit Page" [ref=e96] [cursor=pointer]:
+              - generic [ref=e98]: Edit Page
+        - generic:
+          - complementary "Floating Container":
+            - list
+    - contentinfo
+```
