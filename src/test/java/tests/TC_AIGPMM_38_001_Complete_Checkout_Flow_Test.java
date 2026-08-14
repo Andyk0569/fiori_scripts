@@ -16,7 +16,7 @@ import java.io.InputStream;
 import java.time.Duration;
 import java.util.Properties;
 /**
- * Test Case:AIGPMM-38
+ * Test Case: DEV
  * Description: Verify successful checkout completion with a single product from cart to finish page
  * Objective: Validate that a user can complete the entire checkout process from cart through 
  *            information entry, order review, and final confirmation
